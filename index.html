@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+        <link rel="stylesheet" href="./assets/css/base.css">
+        <link rel="stylesheet" href="./assets/css/main.css">
+        <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="main">
+            <header class="header">
+                <div class="grid">
+                    <nav class="header__navbar">
+                        <ul class="header__navbar-list">
+                            <li class="header__navbar-item header__navbar-item--separate">Kênh người bán</li>
+                            
+                            <li class="header__navbar-item header__navbar-item--separate">Trở thành người bán shoppe</li>
+                            
+                            <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                                Tải ứng dụng
+                                <div>
+                                    <div class="header__qr">
+                                        <img src="./assets/img/shoppeqr.png" alt="Shoppe QR code" class="header__qr-img">
+                                        <div class="header__qr-apps">
+                                            <a href="" class="header__qr-link">
+                                                <img src="./assets/img/ggplay.png" alt="ggplay" class="header__qr-downImg">
+                                            </a>
+                                            <a href="" class="header__qr-link">
+                                                <img src="./assets/img/appstore.png" alt="appstore" class="header__qr-downImg">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </li>
+
+                            <span class="header__navbar-titel--no-pointer">Kết nối</span> 
+                            <a href="" class="header__navbar-icon--link">
+                                <i class="header__navbar-icon fab fa-facebook"></i>
+                            </a>
+                            <a href="" class="header__navbar-icon--link">
+                                <i class="header__navbar-icon fab fa-instagram"></i>
+                            </a>
+
+                        </ul>
+    
+                        <ul class="header__navbar-list">
+
+                            <li class="header__navbar-item header__navbar-item--has-nitifi">
+                                <a href="#" class="header__navbar-item-link">
+                                    <i class="header__navbar-icon fas fa-bell"></i>    
+                                    Thông báo
+                                </a>
+
+                                <div class="header__noitifi">
+                                    <header class="header__noitifi-header">
+                                        <h3>Thông báo mới nhận</h3>
+                                    </header>
+
+                                    <ul class="header__noitifi-list">
+                                        <li class="header__noitifi-item header__noitifi-item--readed">
+                                            <a href="" class="header__noitifi-link">
+                                                <img src="./assets/img/hamster.jpg" alt="" class="header__noitifi-img">
+                                                <div class="header__noitifi-info">
+                                                    <p class="header__noitifi-name">Mua đồ ăn to Pẩn</p>
+                                                    <p class="header__noitifi-description">Sữa dê bột thơm lừng bổ dưỡng cho hamster đặc biệt cho các bé chậm lớn,còi cọc và bà bầu.</p>
+                                                </div>
+                                            </a>
+                                        </li>
+
+                                        <li class="header__noitifi-item">
+                                            <a href="" class="header__noitifi-link">
+                                                <img src="./assets/img/hamster.jpg" alt="" class="header__noitifi-img">
+                                                <div class="header__noitifi-info">
+                                                    <p class="header__noitifi-name">Đồ camp chúng mình chuẩn bị 1 lều, 1 tăng che nắng, ghế, thùng đá giữ nhiệt, bếp nướng....</p>
+                                                    <p class="header__noitifi-description">Sau một thời gian dài ươm mầm và phát triển cộng đồng Beat Gia Lâm. Đội ngũ Admin quyết định sẽ thay đổi nhận diện cũng như xu hướng phát triển của Beat Gia Lâm hướng tới những nguồn tin nóng nhất, chính xác nhất nhằm chung tay phát triển truyền thông của khu vực.</p>
+                                                </div>
+                                            </a>
+                                        </li>
+
+                                        <li class="header__noitifi-item">
+                                            <a href="" class="header__noitifi-link">
+                                                <img src="./assets/img/hamster.jpg" alt="" class="header__noitifi-img">
+                                                <div class="header__noitifi-info">
+                                                    <p class="header__noitifi-name">Mua đồ ăn to Pẩn</p>
+                                                    <p class="header__noitifi-description">Sữa dê bột thơm lừng bổ dưỡng cho hamster đặc biệt cho các bé chậm lớn,còi cọc và bà bầu.</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <footer class="header__noitifi-footer">
+                                        <a href="" class="header__noitifi-footer-btn">Xem tất cả</a>
+                                    </footer>
+                                </div>
+                            </li>
+
+                            <li class="header__navbar-item">
+                                <a href="#" class="header__navbar-item-link">
+                                    <i class="header__navbar-icon fas fa-question-circle"></i>
+                                    Trợ giúp
+                                </a>
+                            </li>
+
+                            <li class="header__navbar-item header__navbar-item--separate">Đăng kí</li>
+
+                            <li class="header__navbar-item">Đăng nhập</li>
+                        </ul>
+                    </nav> <!-- end navber -->
+
+                    <div class="header-with-search">
+                        <div class="header__logo">
+                            <a href="#" class="header__logo-link">
+                                <img src="./assets/img/shoppelogo.png" alt="" class="header__logo-link--img">
+                            </a>
+                        </div>
+
+                        <div class="header__search">
+                            <div class="header__search-input-wrap">
+                                <input type="text" class="header__search-input" placeholder="Search...">
+                                
+                                <div class="header__search-history">
+                                    <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                    <ul class="header__search-history-list">
+                                        <li class="header__search-history-item">Tuột Tít</li>
+                                        <li class="header__search-history-item">Tuột Pẩn</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="header__search-select">
+                                <span class="header__search-select-label">Trong shop</span>
+                                <i class="header__search-select-icon fas fa-chevron-down"></i>
+
+                                <ul class="header__search-option">
+                                    <li class="header__search-option-item header__search-option-item--active">
+                                        <span class="header__search-text">Trong shop</span>
+                                        <i class="fas fa-check"></i>
+                                    </li>
+
+                                    <li class="header__search-option-item">
+                                        <span class="header__search-text">Tất cả</span>
+                                        <i class="fas fa-check"></i>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <button class="header__search-btn">
+                                <i class="header__search-btn-icon fas fa-search"></i>
+                            </button>
+                        </div>
+
+                        <div class="header__cart">
+                            <i class="header__cart-icon fas fa-shopping-cart"></i>
+                            
+                            <div class="header__cart-list header__cart-list--no-cart">
+                                <img src="./assets/img/noItem.png" class="header__cart-list-img" alt="">
+                                <p class="header__cart-list-no-cart-msg">
+                                    Chưa có sản phẩm
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="app__container">
+                <div class="grid">
+                    <div class="grid__row app__conten">
+                        <div class="grid__column-2">
+                            <nav class="category">
+                                <h3 class="category__heading">
+                                    <i class="category__heading-icon fas fa-list"></i>    
+                                    Danh mục
+                                </h3>
+            
+                                <ul class="category-list">
+                                    <li class="category-item category-item--active">
+                                        <a href="" class="category-item__link">Trang điểm mặt</a>
+                                    </li>
+                                    <li class="category-item">
+                                        <a href="" class="category-item__link">Trang điểm môi</a>
+                                    </li>
+                                    <li class="category-item">
+                                        <a href="" class="category-item__link">Trang điểm mắt</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+    
+                        <div class="grid__column-10">
+                            <div class="home-filter">
+                                <sapn class="home-filter__label">Sắp xếp theo</sapn>
+                                <button class="home-finter__btn btn">Phổ biến</button>
+                                <button class="home-finter__btn btn btn--primary">Mới nhất</button>
+                                <button class="home-finter__btn btn">Bán chạy</button>
+
+                                <div class="select-input">
+                                    <span class="select-input__label">Giá</span>
+                                    <i class="select-input__icon fas fa-chevron-down"></i>
+                                    
+                                    <ul class="select-input__list">
+                                        <li class="select-input__item">Giá thấm đến cao</li>
+                                        <li class="select-input__item">Giá cao đến thấp</li>
+                                    </ul>
+                                </div>
+
+                                <div class="home-filter__page">
+                                    <span class="home-filter__page-num">
+                                        <span class="home-filter__page-curent">1</span>/14
+                                    </span>
+
+                                    <div class="home-filter__page-control">
+                                        <a href="" class="home-filter__page-btn home-filter__page-btn--disabled">
+                                            <i class="home-filter__page-icon fas fa-chevron-left"></i>
+                                        </a>
+
+                                        <a href="" class="home-filter__page-btn">
+                                            <i class="home-filter__page-icon fas fa-chevron-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="home-product">
+                                <div class="grid__row">
+                                    <!-- item -->
+                                    <div class="grid__column-2-4">
+                                        <div class="home-product-item">
+                                            <img src="./assets/img/shopitem2.jpg" alt="" class="home-product-item__img">
+                                            <h4 class="home-product-item__name">Đồ ăn to pẩn Vitamin làm đẹp lông cho bọn hamster,thỏ,bọ,sóc,nhím...</h4>
+                                            <div class="home-product-item__price">
+                                                <sapn class="home-product-item__price-old">160.000đ</sapn>
+                                                <sapn class="home-product-item__price-curent">95.000đ</sapn>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__like home-product-item__like--liked">
+                                                    <i class="home-product-item__like--icon-no far fa-heart"></i>
+                                                    <i class="home-product-item__like--icon-yes fas fa-heart"></i>
+                                                </span>
+                                                
+                                                <div class="home-product-item__rating">
+                                                    <i class="home-product-item__start-gold fas fa-star"></i>
+                                                    <i class="home-product-item__start-gold fas fa-star"></i>
+                                                    <i class="home-product-item__start-gold fas fa-star"></i>
+                                                    <i class="home-product-item__start-gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+
+                                                <span class="home-product-item__sold">Đã bán 100</span>
+                                            </div>
+
+                                            <div class="home-product-item__otigin">
+                                                <span class="home-product-item__otigin-name">Hà Nội</span>
+                                            </div>
+
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i> yêu thích
+                                            </div>
+
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-off-percent">15%</span>
+                                                <span class="home-product-item__sale-off-label">GIẢM</span>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <!-- next item -->
+                                    <div class="grid__column-2-4">
+                                        <div class="home-product-item">
+                                            <img src="./assets/img/shopitem2.jpg" alt="" class="home-product-item__img">
+                                            <h4 class="home-product-item__name">Đồ ăn to pẩn Vitamin làm đẹp lông cho bọn hamster,thỏ,bọ,sóc,nhím...</h4>
+                                            <div class="home-product-item__price">
+                                                <sapn class="home-product-item__price-old">160.000đ</sapn>
+                                                <sapn class="home-product-item__price-curent">95.000đ</sapn>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__like home-product-item__like--liked">
+                                                    <i class="home-product-item__like--icon-no far fa-heart"></i>
+                                                    <i class="home-product-item__like--icon-yes fas fa-heart"></i>
+                                                </span>
+                                                
+                                                <div class="home-product-item__rating">
+                                                    <i class="home-product-item__start-gold fas fa-star"></i>
+                                                    <i class="home-product-item__start-gold fas fa-star"></i>
+                                                    <i class="home-product-item__start-gold fas fa-star"></i>
+                                                    <i class="home-product-item__start-gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+
+                                                <span class="home-product-item__sold">Đã bán 100</span>
+                                            </div>
+
+                                            <div class="home-product-item__otigin">
+                                                <span class="home-product-item__otigin-name">Hà Nội</span>
+                                            </div>
+
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i> yêu thích
+                                            </div>
+
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-off-percent">15%</span>
+                                                <span class="home-product-item__sale-off-label">GIẢM</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <!-- next item -->
+                                    <div class="grid__column-2-4">
+                                        <div class="home-product-item">
+                                            <img src="./assets/img/shopitem2.jpg" alt="" class="home-product-item__img">
+                                            <h4 class="home-product-item__name">Đồ ăn to pẩn Vitamin làm đẹp lông cho bọn hamster,thỏ,bọ,sóc,nhím...</h4>
+                                            <div class="home-product-item__price">
+                                                <sapn class="home-product-item__price-old">160.000đ</sapn>
+                                                <sapn class="home-product-item__price-curent">95.000đ</sapn>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__like home-product-item__like--liked">
+                                                    <i class="home-product-item__like--icon-no far fa-heart"></i>
+                                                    <i class="home-product-item__like--icon-yes fas fa-heart"></i>
+                                                </span>
+                                                
+                                                <div class="home-product-item__rating">
+                                                    <i class="home-product-item__start-gold fas fa-star"></i>
+                                                    <i class="home-product-item__start-gold fas fa-star"></i>
+                                                    <i class="home-product-item__start-gold fas fa-star"></i>
+                                                    <i class="home-product-item__start-gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+
+                                                <span class="home-product-item__sold">Đã bán 100</span>
+                                            </div>
+
+                                            <div class="home-product-item__otigin">
+                                                <span class="home-product-item__otigin-name">Hà Nội</span>
+                                            </div>
+
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i> yêu thích
+                                            </div>
+
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-off-percent">15%</span>
+                                                <span class="home-product-item__sale-off-label">GIẢM</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <!-- next item -->
+                                    <div class="grid__column-2-4">
+                                        <div class="home-product-item">
+                                            <img src="./assets/img/shopitem2.jpg" alt="" class="home-product-item__img">
+                                            <h4 class="home-product-item__name">Đồ ăn to pẩn Vitamin làm đẹp lông cho bọn hamster,thỏ,bọ,sóc,nhím...</h4>
+                                            <div class="home-product-item__price">
+                                                <sapn class="home-product-item__price-old">160.000đ</sapn>
+                                                <sapn class="home-product-item__price-curent">95.000đ</sapn>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__like home-product-item__like--liked">
+                                                    <i class="home-product-item__like--icon-no far fa-heart"></i>
+                                                    <i class="home-product-item__like--icon-yes fas fa-heart"></i>
+                                                </span>
+                                                
+                                                <div class="home-product-item__rating">
+                                                    <i class="home-product-item__start-gold fas fa-star"></i>
+                                                    <i class="home-product-item__start-gold fas fa-star"></i>
+                                                    <i class="home-product-item__start-gold fas fa-star"></i>
+                                                    <i class="home-product-item__start-gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+
+                                                <span class="home-product-item__sold">Đã bán 100</span>
+                                            </div>
+
+                                            <div class="home-product-item__otigin">
+                                                <span class="home-product-item__otigin-name">Hà Nội</span>
+                                            </div>
+
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i> yêu thích
+                                            </div>
+
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-off-percent">15%</span>
+                                                <span class="home-product-item__sale-off-label">GIẢM</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <!-- next item -->
+                                    <div class="grid__column-2-4">
+                                        <div class="home-product-item">
+                                            <img src="./assets/img/shopitem2.jpg" alt="" class="home-product-item__img">
+                                            <h4 class="home-product-item__name">Đồ ăn to pẩn Vitamin làm đẹp lông cho bọn hamster,thỏ,bọ,sóc,nhím...</h4>
+                                            <div class="home-product-item__price">
+                                                <sapn class="home-product-item__price-old">160.000đ</sapn>
+                                                <sapn class="home-product-item__price-curent">95.000đ</sapn>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__like home-product-item__like--liked">
+                                                    <i class="home-product-item__like--icon-no far fa-heart"></i>
+                                                    <i class="home-product-item__like--icon-yes fas fa-heart"></i>
+                                                </span>
+                                                
+                                                <div class="home-product-item__rating">
+                                                    <i class="home-product-item__start-gold fas fa-star"></i>
+                                                    <i class="home-product-item__start-gold fas fa-star"></i>
+                                                    <i class="home-product-item__start-gold fas fa-star"></i>
+                                                    <i class="home-product-item__start-gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+
+                                                <span class="home-product-item__sold">Đã bán 100</span>
+                                            </div>
+
+                                            <div class="home-product-item__otigin">
+                                                <span class="home-product-item__otigin-name">Hà Nội</span>
+                                            </div>
+
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i> yêu thích
+                                            </div>
+
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-off-percent">15%</span>
+                                                <span class="home-product-item__sale-off-label">GIẢM</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <!-- next item -->
+                                    <div class="grid__column-2-4">
+                                        <div class="home-product-item">
+                                            <img src="./assets/img/shopitem2.jpg" alt="" class="home-product-item__img">
+                                            <h4 class="home-product-item__name">Đồ ăn to pẩn Vitamin làm đẹp lông cho bọn hamster,thỏ,bọ,sóc,nhím...</h4>
+                                            <div class="home-product-item__price">
+                                                <sapn class="home-product-item__price-old">160.000đ</sapn>
+                                                <sapn class="home-product-item__price-curent">95.000đ</sapn>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__like home-product-item__like--liked">
+                                                    <i class="home-product-item__like--icon-no far fa-heart"></i>
+                                                    <i class="home-product-item__like--icon-yes fas fa-heart"></i>
+                                                </span>
+                                                
+                                                <div class="home-product-item__rating">
+                                                    <i class="home-product-item__start-gold fas fa-star"></i>
+                                                    <i class="home-product-item__start-gold fas fa-star"></i>
+                                                    <i class="home-product-item__start-gold fas fa-star"></i>
+                                                    <i class="home-product-item__start-gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+
+                                                <span class="home-product-item__sold">Đã bán 100</span>
+                                            </div>
+
+                                            <div class="home-product-item__otigin">
+                                                <span class="home-product-item__otigin-name">Hà Nội</span>
+                                            </div>
+
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i> yêu thích
+                                            </div>
+
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-off-percent">15%</span>
+                                                <span class="home-product-item__sale-off-label">GIẢM</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <!-- end -->
+
+
+                                </div>
+                            </div>
+
+
+                            <ul class="pagination home-product__pagination">
+                                <li class="pagination-item">
+                                    <a href="" class="pagination-item__link">
+                                        <i class="pagination-item__icon fas fa-chevron-left"></i>
+                                    </a>
+                                </li>
+                                <li class="pagination-item pagination-item--active">
+                                    <a href="" class="pagination-item__link">1</a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a href="" class="pagination-item__link">2</a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a href="" class="pagination-item__link">3</a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a href="" class="pagination-item__link">4</a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a href="" class="pagination-item__link">5</a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a href="" class="pagination-item__link">6</a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a href="" class="pagination-item__link">...</a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a href="" class="pagination-item__link">11</a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a href="" class="pagination-item__link">
+                                        <i class="pagination-item__icon fas fa-chevron-right"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>  <!-- col 10 -->
+                        
+                    </div>
+                </div>
+            </div>
+
+            <footer class="footer">
+
+            </footer>
+        </div>
+
+
+        <!-- modal -->
+        <!-- <div class="modal">
+            <div class="modal__overlay"></div>
+
+            <div class="modal__body">
+                <div class="modal__inner"> -->
+                <!--  -->
+
+                    <!--  -->
+                    <!-- authen form -->
+                    <!-- <div class="auth-form">
+                        <div class="auth-form__continer">
+                            <div class="auth-form__haeder">
+                                <h3 class="auth-form__haeding">Đăng ký</h3>
+                                <span class="auth-form__switch-btn">Đăng nhập</span>
+                            </div>
+    
+                            <div class="auth-form__form">
+                                <div class="auth-form__group">
+                                    <input type="text" class="auth-form__input" placeholder="Nhập email">
+                                </div>
+                                <div class="auth-form__group">
+                                    <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu">
+                                </div>
+                                <div class="auth-form__group">
+                                    <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                                </div>
+                            </div>
+    
+                            <div class="auth-form__aside">
+                                <p class="auth-form__policy-text">
+                                    Bằng việc đăng kí, bạn đã đồng ý với Shoppe về
+                                    <a href="" class="auth-form__policy-link">Điểu khoản dịch vụ</a> &
+                                    <a href="" class="auth-form__policy-link">Chính sách bảo mật</a>
+                                </p>
+                            </div>
+    
+                            <div class="auth-form__controls">
+                                <button class="btn">Trở lại</button>
+                                <button class="btn btn--primary">Đăng kí</button>
+                            </div>
+                        </div>
+
+                        <div class="auth-form__socials">
+                            <a href="" class="auth-form__socials--fb btn btn--with-icon">
+                                <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                                kết nối với facebook
+                            </a>
+                            <a href="" class="auth-form__socials--gg btn btn--with-icon">
+                                <i class="auth-form__socials-icon fab fa-google-plus-square"></i>
+                                kết nối với Google
+                            </a>
+                            <a href="" class="auth-form__socials--ins btn btn--with-icon">
+                                <i class="auth-form__socials-icon fas fa-sms"></i>
+                                kết nối với instagram
+                            </a>
+                        </div>
+                    </div> -->
+                    <!--  -->
+
+
+                    
+                    <!-- login form -->
+                    <!--  -->
+                    <!-- <div class="auth-form">
+                        <div class="auth-form__continer">
+                            <div class="auth-form__haeder">
+                                <h3 class="auth-form__haeding">Đăng nhập</h3>
+                                <span class="auth-form__switch-btn">Đăng ký</span>
+                            </div>
+    
+                            <div class="auth-form__form">
+                                <div class="auth-form__group">
+                                    <input type="text" class="auth-form__input" placeholder="Nhập email">
+                                </div>
+                                <div class="auth-form__group">
+                                    <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu">
+                                </div>
+                            </div>
+    
+                            <div class="auth-form__aside">
+                                <div class="auth-form__help">
+                                    <a href="" class="auth-form__link auth-form__forgot">Quên mật khẩu</a>
+                                    <span class="auth-form__help-separate"></span>
+                                    <a href="" class="auth-form__link">Cần trợ giúp ?</a>
+                                </div>
+                            </div>
+    
+                            <div class="auth-form__controls">
+                                <button class="btn">Trở lại</button>
+                                <button class="btn btn--primary">Đăng nhập</button>
+                            </div>
+                        </div>
+
+                        <div class="auth-form__socials">
+                            <a href="" class="auth-form__socials--fb btn btn--with-icon">
+                                <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                                Facebook
+                            </a>
+                            <a href="" class="auth-form__socials--gg btn btn--with-icon">
+                                <i class="auth-form__socials-icon fab fa-google-plus-square"></i>
+                                Google
+                            </a>
+                            <a href="" class="auth-form__socials--ins btn btn--with-icon">
+                                <i class="auth-form__socials-icon fas fa-sms"></i>
+                                SMS
+                            </a>
+                        </div>
+                    </div> -->
+                    <!--  -->
+
+
+
+                <!--  -->
+                <!-- </div>
+            </div>
+        </div> -->
+        <!--  -->
+    </body>
+</html>
